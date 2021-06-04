@@ -1,0 +1,71 @@
+/*body style*/
+body {
+    text-align: center;
+    background-color: rgb(193, 243, 179);
+}
+
+h1 {
+    display: block;
+    margin:auto;
+    width: 700px;
+    height: 80px;
+    font-family: "monoton";
+    border: 0.2px solid;
+    box-shadow: 5px 10px #bbb9b9;
+    border-radius: 50px;
+    color: #9161c4 ;
+    font-size: 50px;
+}
+
+h2 {
+    color:#9161c4;
+    font-family: "monoton";
+    font: 100% "monoton", georgia, serif;
+    padding-top: 20px;
+    margin: auto;
+}
+
+h2:last-of-type{
+    padding: 5px;
+    color:rgb(51, 48, 48);
+}
+
+input:last-of-type{
+    cursor: pointer;
+    text-align: center;
+    color: #9161c4 ;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+/* canvas style */
+table {
+    cursor:url(data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAM/8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAABERAAACAAAAAAAAAAAAAAEREQAAIAAAAAAAAAAAAAARERERAgAAAAAAAAAAAAABEREREQAAAAAAAAAAAAAAAREREREQAAAAAAAAAAAAAAERERERAAAAAAAAAAAAAAABEREREAAAAAAAAAAAAAAAEREREQAAAAAAAAAAAAAAABERERAAAAAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAD///8f///+D////Af///gD///wAf//4AD//8AA//+AAP//AAH//gAD//wAB//4AA//8AAf/+AAP//AAH//gAD//wAB//4AA//8AAf//AAP//gAH//wAD//4AB//+AA///AAf//wAP//8AP///AH///gD///4D///8P////P////w==),auto;
+    border: 10px solid #888888;
+    border-collapse: collapse;
+    margin: auto;
+    padding: auto;
+}
+
+/* cells from canvas*/
+td {
+    border: 0.5px solid rgb(206, 202, 202);
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    background-color:whitesmoke;
+    padding:auto;
+}
+
+/* TODO: buttons */
+button{
+    cursor: pointer;
+    text-align: center;
+    color: #9161c4 ;
+    margin-bottom: 10px;
+    font: 100% palatino, georgia, serif;
+}
+
+input[type=number] {
+    width: 5em;
+}
